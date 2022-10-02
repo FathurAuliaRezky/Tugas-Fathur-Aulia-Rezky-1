@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Form HTML</title>
+    <link rel="stylesheet" type="text/css" href="tugas.css">
+
+</head>
+<body bgcolor="#5F9EA0">
+<body>
+    <hr style="width:100%;text-align:left;margin-left:0">
+	<h1>Form Registrasion</h1>
+    <img src="C:\Users\HP\Documents\hensem punya tugas\assets\poto.jpg" width="200" height="200" alt="photo"</body>
+
+	<hr>
+	<form action="submit.php" method="POST">
+    <fieldset>
+        <legend><b>Registration Form</b></legend>
+    <p>Nama : <input type="text" name="username" /></p>
+    </form>
+
+    <p>Tanggal Lahir : <input type="date" name="date"> &nbsp;&nbsp;&nbsp; Gender : <input type="radio" name="Gender" value="pria"> Pria
+    <input type="radio" name="Gender" value="wanita"> Wanita</p>
+
+    <p>Nomor HP : <input type="text" name="username" /></p>
+
+	<form action="submit.php" method="POST">
+    <p>Alamat : <input type="text" name="username" /></p>
+    </form>
+
+    <form method="POST" action="response2.jsp" enctype="multipart/form-data">
+
+    <P>Jurusan :
+    <select name="My Lab">
+    <option value='indonesia'>S1 Teknik Informatika</option>
+    <option value='jerman'>S1 Teknik Mesin</option>
+    <option value='vietnam'>S1 Sistem Informasi</option>
+    <option value='thailand'>S1 Rekayasa Sistem Komputer</option>
+    <option value='malaysia'>D3 Teknologi Listrik</option>
+    <option value='brunei'>S1 Teknik Elektro</option>
+	</select>
+	</P>
+
+    <p>Email : <input type="text" name="username" /></p>
+
+    <p>Foto : <input type="file" name="photo" /></p>
+
+    <form action="proses.php" method="get">
+    <p>Komentar :
+    <textarea name="alamat" rows="8" cols="30"></textarea>
+    <input type="button" onclick="alert('Thank you for joining us!')" value="Submit"> 
+    </fieldset>
+    <hr style="width:100%;text-align:left;margin-left:0">
+
+</form>
+
+</body>
+</html>S
